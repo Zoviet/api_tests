@@ -1,0 +1,7 @@
+{
+  "name": "Тестовый актив",
+  "categoryId": 33,
+  "data": {"ticker": "Тикер", "max_bid": "Максимальное предложение", "trading_volume": "Объем торгов", "circulating_bid": "Циркулирующее предложение", "transaction_speed": "Скорость транзакции", "consensus_algorithm": "Алгоритм консесуса", "market_capitalization": "Рыночная капитализация"},
+  "active": true,
+  "auto": true
+}

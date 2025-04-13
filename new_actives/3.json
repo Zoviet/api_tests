@@ -1,0 +1,7 @@
+{
+  "name": "Тестовый актив",
+  "categoryId": 3,
+  "data": {"sq": "Площадь", "type": "Тип дома", "count": "Комнат в квартире", "floor": "Этаж", "floors": "Этажей в доме"},
+  "active": true,
+  "auto": true
+}

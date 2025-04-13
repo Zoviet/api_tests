@@ -1,0 +1,7 @@
+{
+  "name": "Тестовый актив",
+  "categoryId": 14,
+  "data": {"nkd": "НКД", "offer": "Оферта", "coupon": "Купон", "issuer": "Эмитент", "ticker": "Тикер", "country": "Страна", "nominal": "Номинал", "durations": "Дюрация", "liquidity": "Ликвидность", "conversions": "Конвертации", "coupon_type": "Тип купона", "type_issuer": "Тип эмитента", "amortization": "Амортизация", "issuer_rating": "Рейтинг эмитента", "maturity_date": "Дата погашения", "yield_maturity": "Доходность к погашению(YTM)"},
+  "active": true,
+  "auto": true
+}

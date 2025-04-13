@@ -1,0 +1,7 @@
+{
+  "name": "Тестовый актив",
+  "categoryId": 34,
+  "data": {"tick": "Минимальный шаг цены(тик)", "ticker": "Тикер", "contract_size": "Размер контракта", "execution_price": "Цена исполнения", "expiration_date": "Дата экспирации", "settlement_type": "Тип расчета", "guarantee_margin": "Гарантийное обеспечение(маржа)", "underlying_asset": "Базовый актив"},
+  "active": true,
+  "auto": true
+}

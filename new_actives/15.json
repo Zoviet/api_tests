@@ -1,0 +1,7 @@
+{
+  "name": "Тестовый актив",
+  "categoryId": 15,
+  "data": {"ter": "TER", "yield": "Доходность", "ticker": "Тикер", "etf_type": "Тип ETF", "leverage": "Плечо", "liquidity": "Ликвидность", "tracking_error": "Tracking Error", "dividend_policy": "Дивидендная политика", "underlying_asset": "Базовый актив"},
+  "active": true,
+  "auto": true
+}

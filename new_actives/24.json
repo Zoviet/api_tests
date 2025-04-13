@@ -1,0 +1,7 @@
+{
+  "name": "Тестовый актив",
+  "categoryId": 24,
+  "data": {"basis": "Базис", "ticker": "Тикер", "category": "Категория", "liquidity": "Ликвидность", "volatility": "Волатильность", "contract_size": "Контрактный размер", "expiration_date": "Срок экспирации", "margin_requirements": "Маржинальные требования"},
+  "active": true,
+  "auto": true
+}
