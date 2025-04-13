@@ -2,7 +2,12 @@
 
 #Клиент: https://github.com/httpie/cli
 
-. .categories.sh
+#. categories.sh
+
+jsons=($(find -wholename 'new_actives/*.json'))
+for i in ${jsons[@]};do 
+echo $i; 
+done
 
 
 echo 'Создание, изменение и удаление нового актива:'

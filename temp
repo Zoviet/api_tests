@@ -1,0 +1,1 @@
+{"@context":"\/api\/contexts\/ActivesCategory","@id":"\/api\/actives_category\/16","@type":"hydra:Collection","hydra:totalItems":1,"hydra:member":[[{"id":16,"parent_id":12,"name":"Валюта","active":true,"auto":false,"created":"2025-03-20 18:17:09.738545+01"}]]}

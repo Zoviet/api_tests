@@ -1,7 +1,0 @@
-{
-  "name": "Тестовый актив",
-  "categoryId": 35,
-  "data": {"greeks": "Греки (показатели риска)", "strike": "Страйк(цена исполнения)", "ticker": "Тикер", "premium": "Премия", "option_type": "Тип опциона", "option_style": "Стиль опциона", "underlying_asset": "Базовый актив", "expiration_date’": "Дата экспирации", "intrinsic_time_value": "Внутренняя и временная стоимость"},
-  "active": true,
-  "auto": true
-}

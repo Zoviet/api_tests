@@ -1,7 +1,0 @@
-{
-  "name": "Тестовый актив",
-  "categoryId": 28,
-  "data": {"date": "Дата платежа", "amount": "Сумма", "payment": "Ежемесячный платеж", "procent": "%"},
-  "active": true,
-  "auto": true
-}
