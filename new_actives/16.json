@@ -1,0 +1,7 @@
+{
+  "name": "Валюта_test",
+  "categoryId": 16,
+  "data": {"rate": "Курс", "spread": "Спред", "ticker": "Тикер", "liquidity": "Ликвидность", "volatility": "Волатильность", "interest_rate": "Процентная ставка (ставка ЦБ страны)"},
+  "active": true,
+  "auto": true
+}

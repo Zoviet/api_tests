@@ -1,0 +1,7 @@
+{
+  "name": "Легковые_авто_test",
+  "categoryId": 19,
+  "data": {"vin": "VIN", "sets": "Комплектация", "brand": "Марка", "color": "Цвет", "drive": "Привод", "model": "Модель", "engine": "Двигатель", "owners": "Владельцев", "gearbox": "Коробка", "mileage": "Пробег", "body_type": "Тип кузова", "city_sale": "Город продажи", "generation": "Поколение", "license_type": "Тип ПТС", "modification": "Модификация", "rudder_position": "Положение руля", "year_manufacture": "Год выпуска"},
+  "active": true,
+  "auto": true
+}

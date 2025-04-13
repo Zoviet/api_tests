@@ -1,0 +1,7 @@
+{
+  "name": "Спецтехника_test",
+  "categoryId": 21,
+  "data": {"vin": "VIN", "brand": "Марка", "motor_hours": "Моточасы", "engine_power": "Мощность двигателя", "type_machinery": "Тип техники", "operating_weight": "Эксплуатационная масса", "year_manufacture": "Год выпуска"},
+  "active": true,
+  "auto": true
+}

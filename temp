@@ -1,0 +1,1 @@
+{"@context":"\/api\/contexts\/ActivesCategory","@id":"\/api\/actives_category\/6","@type":"hydra:Collection","hydra:totalItems":1,"hydra:member":[[{"id":6,"parent_id":1,"name":"Гараж","active":true,"auto":false,"created":"2025-03-20 12:03:06.53838+01"}]]}

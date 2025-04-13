@@ -1,0 +1,7 @@
+{
+  "name": "Свободные_test",
+  "categoryId": 10,
+  "data": {"amount": "Сумма", "procent": "% на остаток", "currency": "Валюта"},
+  "active": true,
+  "auto": true
+}

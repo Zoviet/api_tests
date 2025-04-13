@@ -1,0 +1,7 @@
+{
+  "name": "Грузовики_test",
+  "categoryId": 20,
+  "data": {"vin": "VIN", "brand": "Марка", "gearbox": "Коробка передач", "mileage": "Пробег", "payload": "Грузоподъемность", "body_type": "Тип кузова", "engine_type": "Тип двигателя", "tank_volume": "Объем бака", "engine_power": "Мощность двигателя", "сab_suspension": "Подвеска кабины", "year_manufacture": "Год выпуска", "wheel_arrangement": "Колесная формула", "crane_availability": "Наличие крана-манипулятора", "engine_displacement": "Объем двигателя", "environmental_class": "Экологический класс", "authorized_max_weight": "Разрешенная максимальная масса"},
+  "active": true,
+  "auto": true
+}
