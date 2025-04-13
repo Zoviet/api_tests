@@ -1,7 +1,0 @@
-{
-  "name": "Гараж_test",
-  "categoryId": 6,
-  "data": {"no": "Номер", "sq": "Метров", "city": "Город", "coop": "ГСК", "type": "Тип материала", "year": "Год постройки", "square": "Площадь", "address": "Адрес"},
-  "active": true,
-  "auto": true
-}

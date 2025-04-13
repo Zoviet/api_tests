@@ -1,7 +1,0 @@
-{
-  "name": "Депозиты_test",
-  "categoryId": 11,
-  "data": {"term": "Срок", "start": "Начало", "amount": "Сумма", "accrual": "Срок начисления", "procent": "% на остаток", "currency": "Валюта"},
-  "active": true,
-  "auto": true
-}

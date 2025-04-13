@@ -2,20 +2,25 @@
 
 #Клиент: https://github.com/httpie/cli
 
-#. .config
-. categories.sh
+. .config
+#. categories.sh
 
 jsons=($(find -wholename './new_actives/*.json'))
 for i in ${jsons[@]};do 
 	cat_id=`echo "$i" | sed 's/[^0-9]//g'`
-	https -A bearer -a $token GET ${base}'actives_category/'${cat_id} > temp 
-	echo 'Создание тестового актива в категории: ' $(jq '.name' $i)
-	
-	
+	echo 'Создание тестового актива ' $(jq '.name' $i)
+	keys=$(jq -r '.data' $i)
+	if [[ "$keys" == null ]]; then	
+		printf '\033[91mНе найден нулевой актив!\033[0m\n'
+	else
+		data=''
+		for k in $(jq -r '.data | keys | @sh' $i)
+		do	
+			grep $k defaults.json
+		done;
+	fi
+	#sed -i "s/data:.*$/data:{${data}}/g" $i	
 done
-
-
-echo 'Создание, изменение и удаление нового актива:'
 
 #https -A bearer -a $token POST ${base}'create_active' < new_active.json
 

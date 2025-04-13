@@ -1,7 +1,0 @@
-{
-  "name": "Водный_транспорт_test",
-  "categoryId": 23,
-  "data": {"type": "Тип", "brand": "Марка", "model": "Модель", "width": "Ширина", "length": "Длина", "bottom_type": "Тип дна", "motor_brand": "Марка мотора", "motor_power": "Мощность моторов", "country_origin": "Страна происхождения", "max_passengers": "Максимально пассажиров", "motor_included": "Мотор в комплекте", "year_manufacture": "Год выпуска", "country_origin_motor_brand": "Страна происхождения бренда мотора"},
-  "active": true,
-  "auto": true
-}
