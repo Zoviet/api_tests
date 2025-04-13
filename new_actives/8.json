@@ -1,7 +1,0 @@
-{
-  "name": "Тестовый актив",
-  "categoryId": 8,
-  "data": {"sq": "Площадь", "type": "Тип здания", "repair": "Ремонт", "type_object": "Вид объекта"},
-  "active": true,
-  "auto": true
-}

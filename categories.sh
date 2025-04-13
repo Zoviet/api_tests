@@ -17,11 +17,12 @@ do
 	for id in $(jq -r '."hydra:member"[][].id' temp)
 	do	
 		https -A bearer -a $token GET ${base}'actives_category/'${id} > temp 
-		echo 'Категория: ' $(jq '."hydra:member"[0][0].name' temp)
+		cat_name=$(jq '."hydra:member"[0][0].name' temp)
+		echo 'Категория: '${cat_name}
 		parent=($(jq '."hydra:member"[0][0].parent_id' temp))
 		https -A bearer -a $token GET ${base}'get_active/0/'${id} > temp
 		data=$(jq -r '."hydra:member"[0][0].data' temp )
-		jq -r '{name: "Тестовый актив", categoryId: '${id}', data: null, active: true, auto: true}' temp > new_actives/${id}'.json' 
+		jq -r '{name: '${cat_name}', categoryId: '${id}', data: null, active: true, auto: true}' temp > new_actives/${id}'.json' 
 		sed -i "s/null/${data}/g" new_actives/${id}.json
 		if [ $(jq '."hydra:member"[0] | length' temp) -eq "0" ]; then
 			if [[ "$parent" == null ]]; then

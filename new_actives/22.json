@@ -1,7 +1,0 @@
-{
-  "name": "Тестовый актив",
-  "categoryId": 22,
-  "data": {"vin": "VIN", "type": "Тип", "brand": "Марка", "model": "Модель", "power": "Мощность", "cooling": "Охлаждение", "gearbox": "Коробка передач", "condition": "Состояние", "drive_type": "Тип привода", "engine_type": "Тип двигателя", "fuel_supply": "Подача топлива", "number_cycles": "Число тактов", "number_cylinders": "Количество цилиндров", "year_manufacture": "Год выпуска", "engine_displacement": "Объем двигателя"},
-  "active": true,
-  "auto": true
-}
